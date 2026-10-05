@@ -1,9 +1,9 @@
-name = input("What is your name? ")
+name = input("What is your name? ").strip()
 
 if name == "":
     name = "Developer"
 
-goal = input("Why are you learning python? ")
+goal = input("Why are you learning python? ").strip()
 
 if goal == "":
     goal = "Explore what I can build with Python."
